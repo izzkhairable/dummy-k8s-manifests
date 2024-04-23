@@ -1,6 +1,7 @@
 kind: ConfigMap
 apiVersion: v1
 metadata:
-  name: test-secret
+  name: test-configmap
 data:
-  dummy: <path:ossp-vault#test-argo-plugin-access>
+  latest-test-argocd-vault-plugin: <path:ossp-vault#test-argo-plugin-access>
+  old-test-argocd-vault-plugin: <path:ossp-vault#test-argo-plugin-access>
